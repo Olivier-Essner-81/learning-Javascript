@@ -19,7 +19,7 @@ function presentInfoModal(event) {
   closeButton.addEventListener('click', hideInfoModal);
   closeButton.textContent = 'Okay';
   infoModal.appendChild(closeButton);
-  document.body.appendChild(infoModal);
+  document.body.appendChild(infoModal );
 }
 
 function hideInfoModal() {
